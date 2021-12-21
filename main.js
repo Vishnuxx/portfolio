@@ -148,7 +148,7 @@ window.addEventListener("resize", () => {
 const updater = () => {
 
     camera.position.x += 0.001;
-    //camera.position.z =  7;
+    camera.position.z -=  0.001;
     camera.position.y = Math.sin(camera.position.x )
     
     //camera.position.z = Math.abs(camera.position.x);
