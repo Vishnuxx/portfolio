@@ -14,11 +14,11 @@ const scene = new THREE.Scene();
 const parameters = {
   count: 50000,
   size: 0.011,
-  radius: 5,
+  radius: 10,
   branches: 4,
-  spin: 1,
-  randomness: 0.5,
-  randomnessPower: 2,
+  spin: 5,
+  randomness: 0.6,
+  randomnessPower: 9,
   insideColor: 0xff6030,
   outsideColor: 0x1b3984,
 };
@@ -79,13 +79,20 @@ const galaxyGen = () => {
   }
   geometry.setAttribute("position", new THREE.BufferAttribute(positions, 3));
   geometry.setAttribute("color", new THREE.BufferAttribute(colors, 3));
+
+  // const sprite = new THREE.TextureLoader().load( "./assets/images/Saly-10.png");
+
   material = new THREE.PointsMaterial({
     size: parameters.size,
     sizeAttenuation: true,
     depthWrite: false,
     blending: THREE.AdditiveBlending,
     vertexColors: true,
+    // material: sprite
   });
+ 
+
+  console.log(material)
   points = new THREE.Points(geometry, material);
   scene.add(points);
 };
