@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.c87718b7.css",
-    "main.js": "/static/js/main.ec32ccb8.js",
-    "static/js/787.4b260297.chunk.js": "/static/js/787.4b260297.chunk.js",
-    "static/media/vishnu_avatar.glb": "/static/media/vishnu_avatar.d681f1e59d690e837865.glb",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/index.html",
-    "main.c87718b7.css.map": "/static/css/main.c87718b7.css.map",
-    "main.ec32ccb8.js.map": "/static/js/main.ec32ccb8.js.map",
-    "787.4b260297.chunk.js.map": "/static/js/787.4b260297.chunk.js.map"
+    "main.css": "/Vishnuxx/MyPortfolio/static/css/main.c87718b7.css",
+    "main.js": "/Vishnuxx/MyPortfolio/static/js/main.60ed345a.js",
+    "static/js/787.4b260297.chunk.js": "/Vishnuxx/MyPortfolio/static/js/787.4b260297.chunk.js",
+    "static/media/vishnu_avatar.glb": "/Vishnuxx/MyPortfolio/static/media/vishnu_avatar.d681f1e59d690e837865.glb",
+    "static/media/logo.svg": "/Vishnuxx/MyPortfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Vishnuxx/MyPortfolio/index.html",
+    "main.c87718b7.css.map": "/Vishnuxx/MyPortfolio/static/css/main.c87718b7.css.map",
+    "main.60ed345a.js.map": "/Vishnuxx/MyPortfolio/static/js/main.60ed345a.js.map",
+    "787.4b260297.chunk.js.map": "/Vishnuxx/MyPortfolio/static/js/787.4b260297.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c87718b7.css",
-    "static/js/main.ec32ccb8.js"
+    "static/js/main.60ed345a.js"
   ]
 }
