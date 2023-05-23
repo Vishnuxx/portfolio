@@ -1,5 +1,5 @@
 import { useGLTF } from "@react-three/drei";
-import avatar from '../../../3dmodels/vishnu_avatar.glb'
+import avatar from '../../../assets/models/vishnu_avatar.glb'
 
 function Avatar() {
     const gltf = useGLTF(avatar)
