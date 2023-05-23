@@ -12,6 +12,7 @@ import {
   Stars,
   useCamera,
 } from "@react-three/drei";
+import Canvas1 from "./3dComponents/Canvas1";
 
 function Homepage() {
   return (
@@ -26,7 +27,7 @@ function Homepage() {
       }
       color={"white"}
     >
-      
+      <Canvas1></Canvas1>
     </Stack>
   );
 }

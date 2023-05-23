@@ -17,11 +17,11 @@
     "@testing-library/user-event": "^13.5.0",
     "@types/three": "^0.149.0",
     "framer-motion": "^10.3.2",
+    "gsap": "^3.5.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "three": "^0.150.1",
-    "valtio": "^1.10.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
