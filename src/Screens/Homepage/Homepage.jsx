@@ -23,14 +23,8 @@ function Homepage() {
       background={"black"}
       color={"white"}
     >
-      <ThreeD></ThreeD>
-      <Menubar></Menubar>
-      {/* <Stack position={"absolute"} alignItems="center">
-          <p style={{ fontSize: "11vw", fontWeight: 700 }}>VISHNUXX</p>
-          <p style={{ fontSize: "2rem"}}>
-            Aspiring developer techenthusiast
-          </p>
-        </Stack> */}
+      
+      
     </Stack>
   );
 }
