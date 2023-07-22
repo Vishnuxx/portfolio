@@ -2,8 +2,8 @@
 
 
 function Ground(props) {
-    return <mesh {...props}>
-        <meshStandardMaterial></meshStandardMaterial>
+    return <mesh {...props} >
+        <meshStandardMaterial color={props.color} ></meshStandardMaterial>
         <boxGeometry></boxGeometry>
     </mesh>
 }
