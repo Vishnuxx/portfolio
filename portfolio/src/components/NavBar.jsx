@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useState } from "react";
 
 const MenuBar = () => {
@@ -8,7 +9,7 @@ const MenuBar = () => {
   const data = [
     {
       name: "Home",
-      url: "",
+      url: "#home",
     },
     {
       name: "About",
@@ -121,11 +122,11 @@ export default MenuBar;
 function MenuItem({ data }) {
   const { name, url } = data;
   return (
-    <a
+    <Link scroll={true}
       href={url}
-      className="text-gray-300 py-6  hover:bg-[#212121]  bottom-1 hover:text-white flex justify-center  px-[3%] md:py-2 box-border rounded-md text-sm font-medium hover:font-bold"
+     className="text-gray-300 py-6  hover:bg-[#212121]  bottom-1 hover:text-white flex justify-center  px-[3%] md:py-2 box-border rounded-md text-sm font-medium hover:font-bold"
     >
       {name}
-    </a>
+    </Link>
   );
 }
