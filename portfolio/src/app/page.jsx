@@ -1,5 +1,7 @@
 "use client";
 
+import About from "./sections/About";
+
 export default function Home() {
   return (
     <main className="h-fit w-full">
@@ -15,6 +17,12 @@ export default function Home() {
         <p className=" animate-intro will-change-transform lg:text-[1.2rem] md:text-[1.1rem] sm:text-[1rem] text-[0.7rem]">
           A World of a Crazy Hobbyst
         </p>
+      </section>
+      <section
+        id="about"
+        className="w-full h-fit flex flex-col px-8 items-center"
+      >
+        <About></About>
       </section>
     </main>
   );
