@@ -1,15 +1,20 @@
 function Footer() {
     return (
       <footer className="p-4 md:p-8 lg:p-10 ">
-        <div className="mx-auto max-w-screen-xl text-center ">
-          <a
+        <div className="mx-auto max-w-screen-xl text-center pb-[100px] md:pb-0 ">
+          <p
             href="#"
             className="flex justify-center items-center text-2xl font-semibold bg-gradient-to-r from-rose-500 to-indigo-600 bg-clip-text text-transparent"
           >
             Vishnuverse
-          </a>
-          <p className="my-2 text-gray-500 dark:text-gray-400">Made with</p>
-          {/* <ul className="flex flex-wrap justify-center items-center mb-6 ">
+          </p>
+          <p className="my-2 text-gray-500 dark:text-gray-400">
+            Made with{" "} 
+            <span>
+               ♥️
+            </span>
+          </p>
+          <ul className="flex flex-wrap justify-center items-center mb-6 ">
             <li>
               <a href="#" className="mr-4 my-5 hover:underline ">
                 Home
@@ -35,12 +40,12 @@ function Footer() {
                 Achievements
               </a>
             </li>
-          </ul> */}
+          </ul>
           <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
             ©2023-2024{" "}
-            {/* <a href="#" className="hover:underline ">
-              Vishnuxx
-            </a> */}
+            <a href="#" className="hover:underline ">
+              Vishnuverse
+            </a>
             . All Rights Reserved.
           </span>
         </div>
