@@ -1,6 +1,7 @@
 "use client";
 
 import About from "./sections/About";
+import Toolbox from "./sections/Toolbox";
 
 export default function Home() {
   return (
@@ -23,6 +24,12 @@ export default function Home() {
         className="w-full h-fit flex flex-col px-8 items-center"
       >
         <About></About>
+      </section>
+      <section
+        id="skills"
+        className="w-full h-fit flex flex-col px-8 items-center"
+      >
+        <Toolbox></Toolbox>
       </section>
     </main>
   );
