@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-import toolboxdata from "../constants/toolboxdata.json";
+import toolboxconfig from "../constants/toolboxdata.json";
 
 function Toolbox() {
   return (
@@ -51,7 +51,7 @@ function Toolbox() {
 export default Toolbox;
 
 function ToolboxItems() {
-  const data = JSON.parse(JSON.stringify(toolboxdata));
+  const data = JSON.parse(JSON.stringify(toolboxconfig));
   return (
     <div className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-10 w-full scroll-content ">
       {data.map((item, i) => {
