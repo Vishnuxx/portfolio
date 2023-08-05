@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-import toolboxconfig from "../constants/toolboxdata.json";
+import toolboxconfig from "../configs/toolboxconfig.json";
 
 function Toolbox() {
   return (
@@ -18,31 +18,7 @@ function Toolbox() {
         <div className="overflow-hidden w-full">
           <ToolboxItems></ToolboxItems>
         </div>
-        <div className="mt-10 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4">
-          <div className="bg-[#101010] rounded-lg shadow-lg overflow-hidden">
-            <div className="py-8 px-6  ">
-              <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
-                <svg
-                  className="h-6 w-6"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                ></svg>
-              </div>
-              <div className="mt-5">
-                <h3 className="text-lg font-medium text-gray-100">
-                  Web Development
-                </h3>
-                <p className="mt-2 text-base text-gray-400">
-                  Proficient in building responsive and dynamic web applications
-                  using modern front-end frameworks like React and Angular.
-                </p>
-              </div>
-            </div>
-            <div className="bg-gradient-to-r from-rose-500 to-indigo-600 z-50  h-[3px] w-full origin-[0%]  " />
-          </div>
-        </div>
+        
       </div>
     </div>
   );

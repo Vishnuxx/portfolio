@@ -3,7 +3,7 @@ import projectsconfig from "../app/configs/projectsconfig.json";
 import { motion } from "framer-motion";
 
 const ProjectsSection = () => {
-  const [showCard, setShowCard] = useState("all");
+  const [showCard, setShowCard] = useState("pinned");
 
   const handleProject = (category) => {
     setShowCard(category);
@@ -30,7 +30,7 @@ const ProjectsSection = () => {
 
           <div className="mt-10 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-auto lg:grid-rows-auto">
             {projectsconfig.map((item, i) => {
-              if (showCard == "all" || item.category == showCard) {
+              if (showCard == "pinned" || item.category == showCard) {
                 return (
                   <motion.div
                     key={i}
@@ -68,15 +68,15 @@ export default ProjectsSection;
 const Tab = ({ handleProject, showCard }) => {
   const tabitem = [
     {
-      name: "All Projects",
-      filter: "all",
+      name: "Pinned Projects",
+      filter: "pinned",
     },
     {
-      name: "Branding",
+      name: "Brandings",
       filter: "branding",
     },
     {
-      name: "Design",
+      name: "UI/UX Designs",
       filter: "design",
     },
     {
@@ -164,7 +164,7 @@ const PortfolioCard = ({
           <p className="mt-2 text-gray-400 text-sm line-clamp-2 h-14">
             {description
               ? description
-              : "Description dhsbdjhbsd ksjdh ksjdh ksjhd ksjhd sjhd ksjdh ksjdh ksjhd ksjdh kjshd ksd"}
+              : "Description"}
           </p>
         </div>
 

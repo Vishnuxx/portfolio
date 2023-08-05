@@ -1,7 +1,9 @@
 "use client";
 
+import ProjectsSection from "@/components/ProjectSection";
 import About from "./sections/About";
 import Toolbox from "./sections/Toolbox";
+import AreasSection from "./sections/Areas";
 
 export default function Home() {
   return (
@@ -24,6 +26,19 @@ export default function Home() {
         className="w-full h-fit flex flex-col px-8 items-center"
       >
         <About></About>
+      </section>
+      <section
+        id="interests"
+        className="w-full h-fit flex flex-col px-8 items-center"
+      >
+        <AreasSection></AreasSection>
+      </section>
+
+      <section
+        id="projects"
+        className="w-full h-fit flex flex-col px-8 items-center"
+      >
+        <ProjectsSection></ProjectsSection>
       </section>
       <section
         id="skills"
