@@ -28,7 +28,7 @@ export default function Home() {
         <About></About>
       </section>
       <section
-        id="interests"
+        id="skills"
         className="w-full h-fit flex flex-col px-8 items-center"
       >
         <AreasSection></AreasSection>
@@ -41,7 +41,7 @@ export default function Home() {
         <ProjectsSection></ProjectsSection>
       </section>
       <section
-        id="skills"
+        id="tools"
         className="w-full h-fit flex flex-col px-8 items-center"
       >
         <Toolbox></Toolbox>

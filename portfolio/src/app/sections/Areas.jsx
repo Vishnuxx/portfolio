@@ -4,37 +4,37 @@ import { motion } from "framer-motion";
 function AreasSection() {
     const data = JSON.parse(JSON.stringify(interestconfig))
     return (
-      <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8 w-full">
-        <div className="mx-auto  max-w-[510px] text-center">
-          <h2 className="mb-4 text-3xl font-bold text-dark sm:text-4xl md:text-[40px]">
-            Interest Areas
-          </h2>
-          <p className="text-base text-body-color">
-            Some of my interested areas that I'm skilled in
-          </p>
-        </div>
+			<div className="max-w-7xl  mx-auto px-2 py-9  sm:px-6 lg:px-8 w-full">
+				<div className="mx-auto  max-w-[510px] text-center">
+					<h2 className="mb-4 text-3xl font-bold text-dark sm:text-4xl md:text-[40px]">
+						Interest Areas
+					</h2>
+					<p className="text-base text-body-color">
+						Some of my interested areas that I'm skilled in
+					</p>
+				</div>
 
-        <div className="mt-10 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4">
-          {data.map((item , i)=>{
-            return (
-              <motion.div
-                key={i}
-                initial={{
-                  opacity: 0,
-                  transform: "rotateY(-60deg) rotateY(-60deg",
-                }}
-                whileInView={{
-                  opacity: 1,
-                  transform: "rotateY(0) rotateY(0)",
-                }}
-              >
-                <Item name={item.name} />
-              </motion.div>
-            ); 
-          })}
-        </div>
-      </div>
-    );
+				<div className="mt-10 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4">
+					{data.map((item, i) => {
+						return (
+							<motion.div
+								key={i}
+								initial={{
+									opacity: 0,
+									transform: "rotateY(-60deg) rotateY(-60deg",
+								}}
+								whileInView={{
+									opacity: 1,
+									transform: "rotateY(0) rotateY(0)",
+								}}
+							>
+								<Item name={item.name} />
+							</motion.div>
+						);
+					})}
+				</div>
+			</div>
+		);
 }
 
 export default AreasSection;
