@@ -1,0 +1,135 @@
+[
+	{
+		"title": "Mediator",
+		"thumbnail": "https://user-images.githubusercontent.com/74808440/257869354-62965696-89fd-4092-9455-9eb203fbffb2.png",
+		"category": "development",
+		"description": "Mediator is an open-source API testing tool designed to simplify and enhance the testing of REST APIs.",
+		"seo": "",
+		"projectlink": "https://mediator-site.vercel.app/"
+	},
+	{
+		"title": "GatherAR",
+		"thumbnail": "https://user-images.githubusercontent.com/74808440/258594473-327889df-64e6-4170-a1b0-5784d2e0e597.jpeg",
+		"category": "development",
+		"description": "GatherAR is an app that allows users to connect with one another in an augmented reality environment and collaborate in real-time",
+		"seo": "",
+		"projectlink": "https://github.com/Vishnuxx/GatherAR"
+	},
+	{
+		"title": "Inspira Marian IEDC",
+		"thumbnail": "https://user-images.githubusercontent.com/74808440/258594834-767f22d2-9fa5-436d-89b6-0df73e25cc37.png",
+		"category": "development",
+		"description": "Website of Inspira Marian IEDC",
+		"seo": "",
+		"projectlink": "https://github.com/Vishnuxx/VisualBox"
+	},
+	{
+		"title": "VisualBox",
+		"thumbnail": "https://user-images.githubusercontent.com/74808440/168183654-fef7c088-69e1-4b16-948d-1c24cc333164.png",
+		"category": "development",
+		"description": "Frame by Frame Animation builder",
+		"seo": "",
+		"projectlink": "https://github.com/Vishnuxx/VisualBox"
+	},
+	{
+		"title": "Glassmorphism Generator",
+		"thumbnail": "https://user-images.githubusercontent.com/74808440/258595716-99156750-6e25-446c-8b40-a80ad96dde33.png",
+		"category": "development",
+		"description": "CSS Glassmorphism Generator",
+		"seo": "",
+		"projectlink": "https://github.com/Vishnuxx/VisualBox"
+	},
+
+	{
+		"title": "Inspira Logo",
+		"thumbnail": "/inspira.png",
+		"category": "branding",
+		"description": "Branding for Inspira IEDC Marian Engineering College",
+		"seo": "",
+		"projectlink": "https://github.com/Vishnuxx/VisualBox"
+	},
+
+	{
+		"title": "Bluro Brand Logo",
+		"thumbnail": "/BLURO_LOGO_DARK.png",
+		"category": "branding",
+		"description": "Bluro Brand Logo",
+		"seo": "",
+		"projectlink": "https://github.com/Vishnuxx/VisualBox"
+	},
+	{
+		"title": "Ideologics Brand Logo",
+		"thumbnail": "/ideologics.png",
+		"category": "branding",
+		"description": "Ideologics Brand Logo",
+		"seo": "",
+		"projectlink": "https://github.com/Vishnuxx/VisualBox"
+	},
+	{
+		"title": "Marian Tech Fest 2023",
+		"thumbnail": "/techfest_2k23.png",
+		"category": "design",
+		"description": "Posters and banners for Marian Tech Fest 2023",
+		"seo": "",
+		"projectlink": ""
+	},
+	{
+		"title": "Tejasvi Marian 2023",
+		"thumbnail": "/tejasvi_2k23.png",
+		"category": "design",
+		"description": "Posters and banners Tejasvi Marian 2023",
+		"seo": "",
+		"projectlink": ""
+	},
+	{
+		"title": "Gaming UX Design prototype",
+		"thumbnail": "/GameStreamingSite.png",
+		"category": "design",
+		"description": "Posters and banners for Marian Tech Fest 2023",
+		"seo": "",
+		"projectlink": ""
+	},
+	{
+		"title": "Proxyp UI design",
+		"thumbnail": "/proxyp.png",
+		"category": "design",
+		"description": "Posters and banners Tejasvi Marian 2023",
+		"seo": "",
+		"projectlink": ""
+	},
+
+	{
+		"title": "Diwali Game",
+		"thumbnail": "/diwali_game.png",
+		"category": "marketing",
+		"description": "Posters and banners Tejasvi Marian 2023",
+		"seo": "",
+		"projectlink": ""
+	},
+	{
+		"title": "Nike Shoes",
+		"thumbnail": "/nike_ar.png",
+		"category": "marketing",
+		"description": "Posters and banners Tejasvi Marian 2023",
+		"seo": "",
+		"projectlink": ""
+	},
+	{
+		"title": "Diwali Frame",
+		"thumbnail": "/diwali_frame.png",
+		"category": "marketing",
+		"description": "Posters and banners Tejasvi Marian 2023",
+		"seo": "",
+		"projectlink": ""
+	},
+	{
+		"title": "Superhero Mask",
+		"thumbnail": "/superhero_mask.png",
+		"category": "marketing",
+		"description": "Posters and banners Tejasvi Marian 2023",
+		"seo": "",
+		"projectlink": ""
+	}
+]
+
+

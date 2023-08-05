@@ -1,0 +1,173 @@
+[
+  {
+    "name": "HTML",
+    "icon": "https://img.icons8.com/color/48/000000/html-5.png"
+  },
+  {
+    "name": "Css",
+    "icon": "https://img.icons8.com/color/48/000000/css3.png"
+  },
+  {
+    "name": "React Native",
+    "icon": "https://img.icons8.com/color/48/000000/react-native.png"
+  },
+  {
+    "name": "SolidJS",
+    "icon": "https://www.solidjs.com/img/logo/without-wordmark/logo.png"
+  },
+
+  {
+    "name": "NodeJS",
+    "icon": "https://img.icons8.com/color/48/000000/nodejs.png"
+  },
+  {
+    "name": "Hoppscotch",
+    "icon": "https://img.stackshare.io/service/20953/default_fcdb8adfced74e6d928195dff56c0ed8a556613b.png"
+  },
+  {
+    "name": "Tailwind",
+    "icon": "https://img.icons8.com/color/48/tailwindcss.png"
+  },
+
+  {
+    "name": "ExpressJS",
+    "icon": "https://cdn.iconscout.com/icon/free/png-256/node-js-1174925.png"
+  },
+  {
+    "name": "Appwrite",
+    "icon": "https://seeklogo.com/images/A/appwrite-logo-D33B39992A-seeklogo.com.png"
+  },
+  {
+    "name": "Kotlin",
+    "icon": "https://img.icons8.com/color/48/000000/kotlin.png"
+  },
+  {
+    "name": "",
+    "icon": "https://img.icons8.com/fluency/48/flutter.png"
+  },
+  {
+    "name": "Python",
+    "icon": "https://img.icons8.com/color/48/000000/python.png"
+  },
+  {
+    "name": "Java",
+    "icon": "https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png"
+  },
+  {
+    "name": "C",
+    "icon": "https://img.icons8.com/color/48/000000/c-programming.png"
+  },
+
+  {
+    "name": "Firebase",
+    "icon": "https://img.icons8.com/color/48/000000/firebase.png"
+  },
+  {
+    "name": "MySQL",
+    "icon": "https://img.icons8.com/fluent/50/000000/mysql-logo.png"
+  },
+  {
+    "name": "Mongodb",
+    "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg"
+  },
+  {
+    "name": "Figma",
+    "icon": "https://img.icons8.com/color/48/000000/figma--v1.png"
+  },
+
+  {
+    "name": "Golang",
+    "icon": "https://img.icons8.com/color/48/undefined/golang.png"
+  },
+
+  {
+    "name": "RaspberryPI",
+    "icon": "https://img.icons8.com/color/48/raspberry-pi.png"
+  },
+
+  {
+    "name": "Arduino",
+    "icon": "https://img.icons8.com/color/48/arduino.png"
+  },
+  {
+    "name": "Esp32",
+    "icon": "https://img.icons8.com/external-those-icons-fill-those-icons/48/external-esp-cars-components-those-icons-fill-those-icons.png"
+  },
+  {
+    "name": "Rust",
+    "icon": "https://img.icons8.com/nolan/64/rust-programming-language--v1.png"
+  },
+
+  {
+    "name": "PHP",
+    "icon": "https://img.icons8.com/color/48/000000/php.png"
+  },
+
+  {
+    "name": "Shell",
+    "icon": "https://mpng.subpng.com/20180705/txh/kisspng-bash-shell-script-command-line-interface-z-shell-5b3df571eaf1a4.5375084915307871859623.jpg"
+  },
+  {
+    "name": "Docker",
+    "icon": "https://img.icons8.com/fluency/48/undefined/docker.png"
+  },
+  {
+    "name": "WASM",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/WebAssembly_Logo.svg/1200px-WebAssembly_Logo.svg.png"
+  },
+
+  {
+    "name": "Django",
+    "icon": "https://img.icons8.com/color/48/000000/django.png"
+  },
+
+  {
+    "name": "NPM",
+    "icon": "https://img.icons8.com/color/48/000000/npm.png"
+  },
+  {
+    "name": "Git",
+    "icon": "https://img.icons8.com/color/48/000000/git.png"
+  },
+
+  {
+    "name": "Kinemaster",
+    "icon": "https://img.icons8.com/color/48/000000/kinemaster.png"
+  },
+  {
+    "name": "Picsart",
+    "icon": "https://img.icons8.com/color/48/000000/picsart.png"
+  },
+  {
+    "name": "Lightroom",
+    "icon": "https://img.icons8.com/color/48/000000/adobe-lightroom--v1.png"
+  },
+  {
+    "name": "Blender",
+    "icon": "https://img.icons8.com/color/48/000000/blender-3d.png"
+  },
+  {
+    "name": "Android Studio",
+    "icon": "https://img.icons8.com/color/48/000000/android-studio--v3.png"
+  },
+  {
+    "name": "FL studio",
+    "icon": "https://img.icons8.com/color/48/000000/fl-studio.png"
+  },
+  {
+    "name": "Garageband",
+    "icon": "https://img.icons8.com/color/48/undefined/garage-band--v2.png"
+  },
+  {
+    "name": "VS Code",
+    "icon": "https://img.icons8.com/color/48/000000/visual-studio-code-2019.png"
+  },
+  {
+    "name": "Pycharm",
+    "icon": "https://img.icons8.com/color/48/000000/pycharm.png"
+  },
+  {
+    "name": "XCode",
+    "icon": "https://img.icons8.com/color/48/000000/xcode.png"
+  }
+]
