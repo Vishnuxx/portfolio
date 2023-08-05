@@ -2,17 +2,17 @@ function Footer() {
     return (
       <footer className="p-4 md:p-8 lg:p-10 ">
         <div className="mx-auto max-w-screen-xl text-center pb-[100px] md:pb-0 ">
-          <p
-            href="#"
-            className="flex justify-center items-center text-2xl font-semibold bg-gradient-to-r from-rose-500 to-indigo-600 bg-clip-text text-transparent"
-          >
-            Vishnuverse
-          </p>
+          <div className="w-full flex justify-center items-center">
+            <p
+              href="#"
+              className="flex justify-center w-fit items-center text-2xl font-semibold bg-gradient-to-r from-rose-500 to-indigo-600 bg-clip-text text-transparent"
+            >
+              Vishnuverse
+            </p>
+          </div>
+
           <p className="my-2 text-gray-500 dark:text-gray-400">
-            Made with{" "} 
-            <span>
-               ♥️
-            </span>
+            Made with <span>♥️</span>
           </p>
           <ul className="flex flex-wrap justify-center items-center mb-6 ">
             <li>
