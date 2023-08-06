@@ -7,46 +7,46 @@ function Footer() {
               href="#"
               className="flex justify-center w-fit items-center text-2xl font-semibold bg-gradient-to-r from-rose-500 to-indigo-600 bg-clip-text text-transparent"
             >
-              Vishnuverse
+             {' Vishnuverse'}
             </p>
           </div>
 
           <p className="my-2 text-gray-500 dark:text-gray-400">
-            Made with <span>♥️</span>
+           {' Made with '}<span>{'♥️'}</span>
           </p>
           <ul className="flex flex-wrap justify-center items-center mb-6 ">
             <li>
               <a href="#" className="mr-4 my-5 hover:underline ">
-                Home
+               {' Home'}
               </a>
             </li>
             <li>
               <a href="#" className="mr-4 my-5 hover:underline ">
-                About
+               {' About'}
               </a>
             </li>
             <li>
               <a href="#" className="mr-4 my-5 hover:underline  ">
-                Skills
+                {'Skills'}
               </a>
             </li>
             <li>
               <a href="#" className="mr-4 my-5 hover:underline ">
-                Projects
+               {' Projects'}
               </a>
             </li>
             <li>
               <a href="#" className="mr-4 my-5 hover:underline ">
-                Achievements
+                {'Achievements'}
               </a>
             </li>
           </ul>
           <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
-            ©2023-2024{" "}
+            {'©2023-2024'}{" "}
             <a href="#" className="hover:underline ">
-              Vishnuverse
+              {"Vishnuverse"}
             </a>
-            . All Rights Reserved.
+            {". All Rights Reserved."}
           </span>
         </div>
       </footer>

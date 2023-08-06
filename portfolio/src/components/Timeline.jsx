@@ -6,7 +6,7 @@ function Timeline() {
     <div className="py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-3xl font-extrabold text-gray-200 text-center">
-          Experiences
+          {'Experiences'}
         </h2>
         <div className="mt-12 flow-root">
           <ul className="-mb-8">

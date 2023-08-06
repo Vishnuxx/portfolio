@@ -45,7 +45,7 @@ const MenuBar = () => {
 								aria-controls="mobile-menu"
 								aria-expanded="false"
 							>
-								<span className="sr-only">Open main menu</span>
+								<span className="sr-only">{'Open main menu'}</span>
 								{!isOpen ? (
 									<Image
 										width="50"
@@ -67,7 +67,7 @@ const MenuBar = () => {
 						</div>
 
 						<h2 className="hidden w-fit md:block font-bold text-[1.4rem] bg-gradient-to-r from-rose-500 to-indigo-500 bg-clip-text text-transparent ">
-							Vishnuverse
+							{'Vishnuverse'}
 						</h2>
 					</div>
 					<div className="hidden xs:hidden  md:flex w-full flex-row justify-center items-center">

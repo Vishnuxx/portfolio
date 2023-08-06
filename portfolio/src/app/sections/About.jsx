@@ -20,10 +20,10 @@ export default function About() {
 							className="lg:max-w-lg flex flex-col items-center "
 						>
 							<h1 className="mt-2 mb-6  text-3xl font-bold tracking-tight text-gray-200 sm:text-4xl">
-								About Me
+								{`About Me`}
 							</h1>
 							<h2 className="text-center">
-								A Versatile Tech Enthusiast, Entrepreneur, Designer, Developer
+								{`A Versatile Tech Enthusiast, Entrepreneur, Designer, Developer`}
 							</h2>
 							<p className="mt-6 text-lg leading-8 text-gray-400">
 								{`Hey there! I'm Vishnu VS, a spirited computer science student

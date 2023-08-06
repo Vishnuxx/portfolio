@@ -7,7 +7,7 @@ function AreasSection() {
 			<div className="max-w-7xl  mx-auto px-2 py-9  sm:px-6 lg:px-8 w-full">
 				<div className="mx-auto  max-w-[510px] text-center">
 					<h2 className="mb-4 text-3xl font-bold text-dark sm:text-4xl md:text-[40px]">
-						Interest Areas
+						{`Interest Areas`}
 					</h2>
 					<p className="text-base text-body-color">
 						{`Some of my interested areas that I'm skilled in`}

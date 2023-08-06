@@ -18,10 +18,10 @@ const ProjectsSection = () => {
 						<div className="w-full ">
 							<div className="mx-auto  max-w-[510px] text-center">
 								<h2 className="mb-4 text-3xl font-bold text-dark sm:text-4xl md:text-[40px]">
-									Projects
+									{'Projects'}
 								</h2>
 								<p className="text-base text-body-color">
-									Some of my favourite projects
+									{'Some of my favourite projects'}
 								</p>
 							</div>
 						</div>
@@ -144,7 +144,7 @@ const PortfolioCard = ({
 						href={projectlink}
 						className="bg-gray-700 hover:bg-gray-500 px-4 py-1 rounded-md  "
 					>
-						Visit
+						{'Visit'}
 					</a>
 				</div>
 
