@@ -21,23 +21,23 @@ function Footer() {
               </a>
             </li>
             <li>
-              <a href="#" className="mr-4 my-5 hover:underline ">
+              <a href="#about" className="mr-4 my-5 hover:underline ">
                {' About'}
               </a>
             </li>
             <li>
-              <a href="#" className="mr-4 my-5 hover:underline  ">
+              <a href="#skills" className="mr-4 my-5 hover:underline  ">
                 {'Skills'}
               </a>
             </li>
             <li>
-              <a href="#" className="mr-4 my-5 hover:underline ">
+              <a href="#projects" className="mr-4 my-5 hover:underline ">
                {' Projects'}
               </a>
             </li>
             <li>
-              <a href="#" className="mr-4 my-5 hover:underline ">
-                {'Achievements'}
+              <a href="#experiences" className="mr-4 my-5 hover:underline ">
+                {'Experiences'}
               </a>
             </li>
           </ul>

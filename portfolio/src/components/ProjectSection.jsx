@@ -58,6 +58,7 @@ const ProjectsSection = () => {
 							}
 						})}
 					</div>
+          <a href="https://github.com/Vishnuxx" className="">See More</a>
 				</div>
 			</section>
 		</>
