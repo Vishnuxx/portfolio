@@ -42,11 +42,15 @@ export default function About() {
 				<motion.div
 					initial={{
 						opacity: 0,
-						transform: "opacity:0",
+						transform: "translateY(200px)",
 					}}
 					whileInView={{
 						opacity: 1,
-						transform: "opacity:1",
+						transform: "translateY(0)",
+						
+					}}
+					transition={{
+						duration:"0.5"
 					}}
 					className=" px-0 -mt-12 p-12 lg:sticky w-full flex flex-col  justify-center  items-center lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden"
 				>
@@ -70,7 +74,7 @@ export default function About() {
 const LinkBanner = () => {
 	return (
 		<div className=" w-full h-fit py-4 px-2 rounded-2xl flex flex-col gap-3 justify-center items-center bg-gradient-to-r from-rose-500 to-indigo-600 ">
-			<p className="text-lg ">Get in touch with me</p>
+			{/* <p className="text-lg ">Get in touch with me</p> */}
 			<div className="flex flex-row w-full items-center justify-center gap-4">
 				<a href="https://www.linkedin.com/in/vishnu-vs-799b8420b">
 					<Image
@@ -81,7 +85,6 @@ const LinkBanner = () => {
 						src="https://img.icons8.com/fluency/48/linkedin.png"
 					/>
 				</a>
-
 				<a href="https://instagram.com/ideo_logic?igshid=YmMyMTA2M2Y=">
 					<Image
 						width="30"
@@ -91,7 +94,6 @@ const LinkBanner = () => {
 						src="https://img.icons8.com/fluency/48/instagram-new.png"
 					/>
 				</a>
-
 				<a href="https://dev.to/vishnuxx">
 					<Image
 						width="30"
@@ -102,6 +104,15 @@ const LinkBanner = () => {
 					/>
 				</a>
 
+				<a href="https://github.com/Vishnuxx">
+					<Image
+						width="30"
+						height="30"
+						layout="fixed"
+						alt="vishnu's discord"
+						src="https://img.icons8.com/material-outlined/24/github.png"
+					/>
+				</a>
 				<a href="https://dev.to/vishnuxx">
 					<Image
 						width="30"
@@ -111,7 +122,6 @@ const LinkBanner = () => {
 						src="https://img.icons8.com/fluency/48/discord-logo.png"
 					/>
 				</a>
-
 				<a href="https://stackoverflow.com/users/15778787/vishnuxx">
 					<Image
 						width="30"
@@ -121,7 +131,6 @@ const LinkBanner = () => {
 						src="https://img.icons8.com/color/48/stackoverflow.png"
 					/>
 				</a>
-
 				<a href="https://dribbble.com/Vishnuxx">
 					<Image
 						width="30"
@@ -131,7 +140,6 @@ const LinkBanner = () => {
 						src="https://img.icons8.com/fluency/48/dribbble.png"
 					/>
 				</a>
-
 				<a href="https://www.youtube.com/channel/UCYTyVW6EnTsZ83-05aty-hw">
 					<Image
 						width="30"
@@ -141,7 +149,6 @@ const LinkBanner = () => {
 						alt="youtube"
 					/>
 				</a>
-
 				<a href="https://figma.com/@ideologic">
 					<Image
 						width="30"

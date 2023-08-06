@@ -18,10 +18,10 @@ const ProjectsSection = () => {
 						<div className="w-full ">
 							<div className="mx-auto  max-w-[510px] text-center">
 								<h2 className="mb-4 text-3xl font-bold text-dark sm:text-4xl md:text-[40px]">
-									{'Projects'}
+									{"Projects"}
 								</h2>
 								<p className="text-base text-body-color">
-									{'Some of my favourite projects'}
+									{"Some of my favourite projects"}
 								</p>
 							</div>
 						</div>
@@ -58,7 +58,16 @@ const ProjectsSection = () => {
 							}
 						})}
 					</div>
-          <a href="https://github.com/Vishnuxx" className="">See More</a>
+				
+						<a
+							href="https://github.com/Vishnuxx"
+							className="font-bold "
+						>
+              <div className="w-full py-6 mt-20 rounded-md flex justify-center bg-[#202020] hover:bg-[#262626] active:bg-[#363636]">
+							See More
+              </div>
+						</a>
+					
 				</div>
 			</section>
 		</>

@@ -25,19 +25,11 @@
 	},
 	{
 		"title": "VisualBox",
-		"thumbnail": "https://user-images.githubusercontent.com/74808440/168183654-fef7c088-69e1-4b16-948d-1c24cc333164.png",
+		"thumbnail": "https://user-images.githubusercontent.com/74808440/168183623-ba14c616-3cbf-4f47-bb3e-bf03c443630c.png",
 		"category": "development",
 		"description": "Frame by Frame Animation builder",
 		"seo": "",
 		"projectlink": "https://github.com/Vishnuxx/VisualBox"
-	},
-	{
-		"title": "Glassmorphism Generator",
-		"thumbnail": "https://user-images.githubusercontent.com/74808440/258595716-99156750-6e25-446c-8b40-a80ad96dde33.png",
-		"category": "development",
-		"description": "CSS Glassmorphism Generator",
-		"seo": "",
-		"projectlink": "https://vishnuxx.github.io/GlassMorphism-generator/"
 	},
 	{
 		"title": "Gaming UX Design prototype",
@@ -54,6 +46,14 @@
 		"description": "API testing tool UI design",
 		"seo": "",
 		"projectlink": "https://www.figma.com/community/file/1111741482453195153"
+	},
+	{
+		"title": "Glassmorphism Generator",
+		"thumbnail": "https://user-images.githubusercontent.com/74808440/258595716-99156750-6e25-446c-8b40-a80ad96dde33.png",
+		"category": "development",
+		"description": "CSS Glassmorphism Generator",
+		"seo": "",
+		"projectlink": "https://vishnuxx.github.io/GlassMorphism-generator/"
 	},
 
 	{

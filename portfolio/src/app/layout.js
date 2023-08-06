@@ -25,13 +25,15 @@ export default function RootLayout({ children }) {
 			/>
 			<meta name="author" content="Vishnu VS"></meta>
 
-      <link rel="icon" href="/vishnuverselogo.svg" type="image/x-icon"></link>
+			<link rel="icon" href="/vishnuverselogo.svg" type="image/x-icon"></link>
 
 			<body
-				className={`bg-black text-white h-screen flex flex-col box-border w-screen m-0 p-0 ${inter.className}`}
+				className={`bg-black  text-white h-screen flex flex-col box-border w-screen m-0 p-0 ${inter.className}`}
 			>
 				<Navbar></Navbar>
-				<main className="h-fit w-full flex flex-col">{children}</main>
+				<main className="h-fit w-full flex flex-col ">
+					{children}
+				</main>
 				<Footer></Footer>
 			</body>
 		</html>
