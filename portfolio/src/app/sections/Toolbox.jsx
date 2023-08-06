@@ -9,11 +9,11 @@ function Toolbox() {
 			<div className=" max-w-7xl mx-auto px-2 sm:px-6 lg:px-8 w-full">
 				<div className="text-center">
 					<h2 className="py-4 text-3xl font-extrabold text-gray-100 sm:text-4xl">
-						My Toolbox
+						{`My Toolbox`}
 					</h2>
 					<p className="py-6 text-lg text-gray-400 text-center hyphens-auto">
-						Here are some of the key technologies I've explored as a tech
-						hobbyist.
+						{`Here are some of the key technologies I've explored as a tech
+						hobbyist.`}
 					</p>
 				</div>
 				<div className="overflow-hidden w-full">
@@ -46,7 +46,6 @@ function ToolboxItems() {
 								width="30"
 								height="30"
 								layout="fixed"
-								className="w-10 h-10 object-contain "
 								src={item.icon}
 								alt={item.name}
 							/>

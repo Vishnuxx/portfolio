@@ -10,7 +10,7 @@ function AreasSection() {
 						Interest Areas
 					</h2>
 					<p className="text-base text-body-color">
-						Some of my interested areas that I'm skilled in
+						{`Some of my interested areas that I'm skilled in`}
 					</p>
 				</div>
 

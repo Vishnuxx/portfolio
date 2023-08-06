@@ -26,7 +26,7 @@ export default function About() {
 								A Versatile Tech Enthusiast, Entrepreneur, Designer, Developer
 							</h2>
 							<p className="mt-6 text-lg leading-8 text-gray-400">
-								Hey there! I'm Vishnu VS, a spirited computer science student
+								{`Hey there! I'm Vishnu VS, a spirited computer science student
 								with a flair for turning wild ideas into super cool interactive
 								digital adventures. I'm all about tech-powered transformations
 								that make our world shine brighter. I'm on a thrilling mission
@@ -34,7 +34,7 @@ export default function About() {
 								everyone's socks off. And guess what? I'm head over heels in
 								love with creating open source developer magic that's all about
 								teaming up, dreaming big, and making the tech universe high-five
-								with creativity!
+								with creativity!`}
 							</p>
 						</motion.div>
 					</div>
@@ -52,7 +52,6 @@ export default function About() {
 						width={150}
 						height={100}
 						layout="responsive"
-						className="w-full rounded-xl shadow-xl ring-1 ring-gray-400/10  object-contain"
 						src="/Vishnu_avatar.png"
 						alt="Portfolio Screenshot"
 					/>
