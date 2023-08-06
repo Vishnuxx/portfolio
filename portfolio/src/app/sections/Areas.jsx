@@ -42,7 +42,7 @@ export default AreasSection;
 
 function Item({name}) {
     return (
-      <div className="bg-gray-900 rounded-lg shadow-lg overflow-hidden">
+      <div className="bg-[#191919] rounded-lg shadow-lg overflow-hidden">
         <div className="py-8 px-6  ">
          
           <div className="mt-5">

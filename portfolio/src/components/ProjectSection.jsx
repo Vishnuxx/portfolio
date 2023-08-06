@@ -142,9 +142,9 @@ const PortfolioCard = ({
 				>
 					<a
 						href={projectlink}
-						className="bg-gray-700 hover:bg-gray-500 px-4 py-1 rounded-md  "
+						className="hover:text-lg transition-all duration-200 bg-gradient-to-r from-rose-500 to-indigo-500  px-4 py-1 rounded-md  "
 					>
-						{'Visit'}
+						{"Visit"}
 					</a>
 				</div>
 
