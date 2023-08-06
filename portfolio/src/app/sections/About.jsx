@@ -47,7 +47,7 @@ export default function About() {
 							whileInView={{
 								opacity: 1,
 								transform: "opacity:1",
-							}} className=" -mt-12 p-12 lg:sticky w-full flex absolute justify-center  items-center lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
+							}} className=" -mt-12 p-12 lg:sticky w-full flex  justify-center  items-center lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
 					<Image
 						width={150}
 						height={100}
