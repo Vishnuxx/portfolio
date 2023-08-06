@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import projectsconfig from "../app/configs/projectsconfig.json";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 const ProjectsSection = () => {
   const [showCard, setShowCard] = useState("pinned");
@@ -135,7 +136,7 @@ const PortfolioCard = ({
           showCard ? "flex" : "none"
         }  `}
       >
-        <div className="w-full text-sm flex justify-end absolute top-4 right-4">
+        <div style={{display:`${projectlink == ""? "none" : "flex"}` }} className={`w-full  text-sm  justify-end absolute top-4 right-4`}>
           <a
             href={projectlink}
             className="bg-gray-700 hover:bg-gray-500 px-4 py-1 rounded-md  "
@@ -146,11 +147,13 @@ const PortfolioCard = ({
 
         <div className="flex  items-center w-full h-[200px] justify-center rounded-md bg-[#262626] overflow-hidden text-white">
           {/* Add an icon of the skill */}
-          <div className="absolute w-full h-full bg-black opacity-60 invisible hover:block ">
-            <p>Hello</p>
-          </div>
+          
           <object data="" type="" className="overflow-hidden">
-            <img
+            <Image
+            width="250"
+            height="150"
+            objectFit="cover"
+            layout="responsive"
               src={ImageHref}
               className="w-full h-full object-cover flex justify-center "
               alt={title}

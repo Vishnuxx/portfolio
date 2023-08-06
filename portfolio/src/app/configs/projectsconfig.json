@@ -21,7 +21,7 @@
 		"category": "development",
 		"description": "Website of Inspira Marian IEDC",
 		"seo": "",
-		"projectlink": "https://github.com/Vishnuxx/VisualBox"
+		"projectlink": "https://iedc.marian.ac.in"
 	},
 	{
 		"title": "VisualBox",
@@ -37,49 +37,7 @@
 		"category": "development",
 		"description": "CSS Glassmorphism Generator",
 		"seo": "",
-		"projectlink": "https://github.com/Vishnuxx/VisualBox"
-	},
-
-	{
-		"title": "Inspira Logo",
-		"thumbnail": "/inspira.png",
-		"category": "branding",
-		"description": "Branding for Inspira IEDC Marian Engineering College",
-		"seo": "",
-		"projectlink": "https://github.com/Vishnuxx/VisualBox"
-	},
-
-	{
-		"title": "Bluro Brand Logo",
-		"thumbnail": "/BLURO_LOGO_DARK.png",
-		"category": "branding",
-		"description": "Bluro Brand Logo",
-		"seo": "",
-		"projectlink": "https://github.com/Vishnuxx/VisualBox"
-	},
-	{
-		"title": "Ideologics Brand Logo",
-		"thumbnail": "/ideologics.png",
-		"category": "branding",
-		"description": "Ideologics Brand Logo",
-		"seo": "",
-		"projectlink": "https://github.com/Vishnuxx/VisualBox"
-	},
-	{
-		"title": "Marian Tech Fest 2023",
-		"thumbnail": "/techfest_2k23.png",
-		"category": "design",
-		"description": "Posters and banners for Marian Tech Fest 2023",
-		"seo": "",
-		"projectlink": ""
-	},
-	{
-		"title": "Tejasvi Marian 2023",
-		"thumbnail": "/tejasvi_2k23.png",
-		"category": "design",
-		"description": "Posters and banners Tejasvi Marian 2023",
-		"seo": "",
-		"projectlink": ""
+		"projectlink": "https://vishnuxx.github.io/GlassMorphism-generator/"
 	},
 	{
 		"title": "Gaming UX Design prototype",
@@ -87,13 +45,30 @@
 		"category": "design",
 		"description": "Interactive Gaming UX Design prototype",
 		"seo": "",
-		"projectlink": ""
+		"projectlink": "https://www.figma.com/community/file/1232043061837056065"
 	},
 	{
 		"title": "Proxyp UI design",
 		"thumbnail": "/proxyp.png",
 		"category": "design",
 		"description": "API testing tool UI design",
+		"seo": "",
+		"projectlink": "https://www.figma.com/community/file/1111741482453195153"
+	},
+
+	{
+		"title": "Marian Tech Fest 2023",
+		"thumbnail": "/techfest_2k23.png",
+		"category": "design",
+		"description": "",
+		"seo": "",
+		"projectlink": ""
+	},
+	{
+		"title": "Tejasvi Marian 2023",
+		"thumbnail": "/tejasvi_2k23.png",
+		"category": "design",
+		"description": "",
 		"seo": "",
 		"projectlink": ""
 	},
@@ -127,6 +102,31 @@
 		"thumbnail": "/superhero_mask.png",
 		"category": "marketing",
 		"description": "Super hero mask filter using Meta spark AR",
+		"seo": "",
+		"projectlink": ""
+	},
+	{
+		"title": "Inspira Logo",
+		"thumbnail": "/inspira.png",
+		"category": "branding",
+		"description": "Branding for Inspira IEDC Marian Engineering College",
+		"seo": "",
+		"projectlink": ""
+	},
+
+	{
+		"title": "Bluro Brand Logo",
+		"thumbnail": "/BLURO_LOGO_DARK.png",
+		"category": "branding",
+		"description": "Bluro Brand Logo",
+		"seo": "",
+		"projectlink": ""
+	},
+	{
+		"title": "Ideologics Brand Logo",
+		"thumbnail": "/ideologics.png",
+		"category": "branding",
+		"description": "Ideologics Brand Logo",
 		"seo": "",
 		"projectlink": ""
 	}
